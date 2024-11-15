@@ -1,0 +1,21 @@
+{
+    "name": "MacOS Ventura Development Container",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "osx-ventura",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools"
+            ]
+        }
+    },
+    "remoteUser": "root",
+    "overrideCommand": false
+}
