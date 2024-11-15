@@ -4,7 +4,7 @@
         "../docker-compose.yml"
     ],
     "service": "osx-ventura",
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "workspaceFolder": "/workspace",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {}
     },
